@@ -2,7 +2,9 @@ header, main, footer {
     padding-left: 300px;
 }
 
-ul li.active,
+ul li.active{
+    background-color: #121212 !important;
+}
 ul li:hover {
     background-color: #121212;
 }
