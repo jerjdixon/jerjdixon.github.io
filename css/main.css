@@ -2,8 +2,8 @@ header, main, footer {
     padding-left: 300px;
 }
 
-nav ul li.active,
-nav ul li:hover {
+ul li.active,
+ul li:hover {
     background-color: white;
 }
 
