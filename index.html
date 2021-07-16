@@ -1,72 +1,46 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Bootstrap CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
-
-    <title>Hello, world!</title>
-  </head>
-    <div id="wrapper">
-        <div class="overlay"></div>
-
-        <!-- Sidebar -->
-        <nav class="navbar navbar-inverse fixed-top" id="sidebar-wrapper" role="navigation">
-            <ul class="nav sidebar-nav">
-                <div class="sidebar-header">
-                    <div class="sidebar-brand">
-                        <a href="#">Brand</a>
-                    </div>
-                </div>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#events">Events</a></li>
-                <li><a href="#team">Team</a></li>
-                <li class="dropdown">
-                    <a href="#works" class="dropdown-toggle" data-toggle="dropdown">Works<span class="caret"></span></a>
-                    <ul class="dropdown-menu animated fadeInLeft" role="menu">
-                        <div class="dropdown-header">Dropdown heading</div>
-                        <li><a href="#pictures">Pictures</a></li>
-                        <li><a href="#videos">Videos</a></li>
-                        <li><a href="#books">Books</a></li>
-                        <li><a href="#art">Art</a></li>
-                        <li><a href="#awards">Awards</a></li>
-                    </ul>
-                </li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li><a href="#followme">Follow Me</a></li>
-            </ul>
-        </nav>
-        <!-- End of Sidebar -->
-
-        <!-- Page Content Goes Here -->
-        <body>
-            <div id="page-content-wrapper">
-                <button type="button" class="hamburger animated fadeInLeft is-clsoed" data-toggle="offcanvas">
-                    <span class="hamb-top"></span>
-                    <span class="hamb-middle"></span>
-                    <span class="hamb-bottom"></span>
-                </button>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <!-- Google Icon Font -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!-- Materialize CSS -->
+        <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection"/>
+        <!-- Optimized for mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <header>
+            <nav class="top-nav">
                 <div class="container">
-                    <div class="row">
-
+                    <div class="nav-wrapper">
+                        <div class="row">
+                            <div class="col s12 m10 offset-m1">
+                                <h1 class="header">Sidenav</h1>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <!-- Page Content Wrapper End-->
-    </div>
-    <!-- End Wrapper -->
+            </nav>
+        </header>
+        <ul id="slide-out" class="sidenav sidenav-fixed">
+            <li class="bold">
+                <a href="#" class="waves-effect waves-teal">Page 1</a>
+            </li>
+            <li class="bold">
+                <a href="#" class="waves-effect waves-teal">Page 2</a>
+            </li>
+            <li class="bold">
+                <a href="#" class="waves-effect waves-teal">Page 3</a>
+            </li>
+            <li class="bold">
+                <a href="#" class="waves-effect waves-teal">Page 4</a>
+            </li>
+        </ul>
+        <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
 
-    <!-- Optional JavaScript; choose one of the two! -->
-
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/main.js"></script>
-  </body>
+        <!-- Javascript at end of body for optimized loading -->
+        <script type="text/javascript" src="js/materialize.min.js"></script>
+    </body>
 </html>
