@@ -1,7 +1,3 @@
-.top-nav .container .nav-wrapper .brand-logo {
-    padding-left: 500px;
-}
-
 header, main, footer {
     padding-left: 300px;
 }
@@ -9,17 +5,5 @@ header, main, footer {
 @media only screen and (max-width : 992px) {
     header, main, footer {
         padding-left: 0;
-    }
-}
-
-@media only screen and (max-width : 600px) {
-    .top-nav .container .nav-wrapper .brand-logo {
-        padding-left: 50px;
-    }
-}
-
-@media only screen and (max-width: 991px) {
-    .top-nav .container .nav-wrapper .brand-logo { 
-        padding-left: 100px;
     }
 }
