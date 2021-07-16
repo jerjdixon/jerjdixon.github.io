@@ -4,7 +4,7 @@ header, main, footer {
 
 ul li.active,
 ul li:hover {
-    background-color: white;
+    background-color: #121212;
 }
 
 
