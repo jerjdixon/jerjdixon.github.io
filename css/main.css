@@ -1,4 +1,8 @@
-header, main, footer {
+header {
+    padding-left: 600px;
+}
+
+main, footer {
     padding-left: 300px;
 }
 
