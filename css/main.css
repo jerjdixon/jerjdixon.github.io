@@ -1,8 +1,8 @@
-.brand-logo {
-    padding-left: 300px;
+.top-nav.container.nav-wrapper.brand-logo {
+    padding-left: 100px;
 }
 
-main, footer {
+header, main, footer {
     padding-left: 300px;
 }
 
