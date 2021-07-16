@@ -4,7 +4,7 @@ header, main, footer {
 
 nav ul li.active,
 nav ul li:hover {
-    background-color: #0d0d0d;
+    background-color: white;
 }
 
 
